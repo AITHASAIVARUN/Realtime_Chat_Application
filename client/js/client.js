@@ -1,4 +1,9 @@
-const socket = io('http://localhost:3000');
+// const socket = io('http://localhost:3000');
+
+const socket = io('https://realtime-chat-application-s7eu.onrender.com'); // Replace with your actual backend URL
+
+
+
 
 const form = document.getElementById('send-con');
 const messageContainer = document.querySelector(".container1");
